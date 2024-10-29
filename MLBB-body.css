@@ -1,0 +1,84 @@
+
+.hayabusa-pic{
+    width: 700px;
+}
+
+.kagura-pic{
+    width: 600px;
+}
+
+.hayabusa-pic:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.hero-name{
+    position: absolute;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right;
+    font-family: Inter;
+    left: 50px; /* change this value to match needs */
+    top: 200px; /* change this value to match needs */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 75px;
+    letter-spacing: 0.05em;
+    color: #664E50; /* Text color */
+    text-shadow: 
+        2px 2px 0 #D2B2A0,  
+        -2px 2px 0 #D2B2A0,
+        2px -2px 0 #D2B2A0,
+        -2px -2px 0 #D2B2A0; /* Border color */ 
+}
+
+.texts-grid{
+    display: flex;
+    flex-direction: column;  
+}
+
+.exorcist-logo{
+    width: 250px;
+    height: 250px;
+    flex: 1;
+    margin-left: 200px;
+    margin-bottom: -50px        ;
+}
+
+.haya-label{
+    margin-left: 100px;
+    font-family: Jura;
+    color: #EE9E54;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.header-desc{
+    font-size: 65px;
+    font-weight: bold;
+    color: #EE9E54;
+    font-family: Night in Tokyo;
+    margin-left: 95px;
+    margin-top: 5px;
+
+}
+
+.haya-desc{
+    margin-left: 100px;
+    font-family: Jura;
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+    width: 500px;
+    height: 330px;
+}
+.hero-name-container{
+    display: flex;
+    flex: 1;
+    margin-left: 100px;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
